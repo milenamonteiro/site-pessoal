@@ -15,7 +15,7 @@ export default {
 
 <template>
     <section class="">
-        <div class="grid items-center grid-cols-1 mt-12 text-center md:mt-24 md:text-left md:grid-cols-6">
+        <div class="grid grid-flow-row-dense items-center grid-cols-1 mt-12 text-center md:mt-24 md:text-left md:grid-cols-6">
 
             <!-- Banner left contents -->
             <h1
@@ -24,8 +24,8 @@ export default {
                 <span class="text-teal-500 dark:text-teal-400">Milena Monteiro</span>, sou desenvolvedora Full Stack.
             </h1>
 
-            <div class="order-1 md:order-2">
-                <img class="col-span-1 rounded-full" src="@/assets/images/profile.jpeg" alt="Developer" />
+            <div class="order-1 md:order-2 place-content-center self-center">
+                <img class="col-span-1 rounded-full object-contain w-16 md:w-32 lg:w-48" src="@/assets/images/profile.jpeg" alt="Developer" />
             </div>
 
         </div>
